@@ -1,0 +1,140 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+  background-color: white;
+  background-image: url("images/blue-universe-956981.jpg");
+  background-size: 1500px;
+  height: 100%;
+  align-content: center;
+}
+
+.img_circle {
+  border-radius: 5px;
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+}
+
+html {
+  height: 100%;
+}
+
+h1, h2 {
+  color:white;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  font-family: 'Montserrat';
+}
+
+h2 {
+  font-size: 100;
+}
+
+.wrapper {
+  text-align: center;
+  background-color: rgba(244, 172, 183, 0.2);
+  margin: auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+p {
+  color:white;
+  font-size: 30px;
+  text-align: center;
+  font-family: 'Montserrat';
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 30px;
+    text-align: center;
+    padding: 3px;
+}
+
+.btn {
+  background-color: #242038;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color:#8C9A9E ;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+}
+
+.menu {
+  margin: auto;
+}
+
+.menu a{
+  font-family: 'Montserrat';
+}
+
+.menu ul {
+  list-style-type: none;
+/*  margin: 0;
+  padding: 0;*/
+  overflow: hidden;
+  background-color: rgba(3, 43, 67, 0.74);
+  text-align: center;
+}
+
+.menu li {
+  float: center;
+}
+
+.menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 5px;
+  text-decoration: none;
+}
+
+.menu li a:hover:not(.active) {
+  background-color: #8C9A9E;
+}
+
+.active {
+  background-color: #2E1760;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .wrapper, .menu {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .wrapper, .menu {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .wrapper, .menu {
+    width: 300px;
+  }
+}
